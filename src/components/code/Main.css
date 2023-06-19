@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, dodgerblue, rgb(232, 34, 67));
+    text-align: center;
+    line-height: 40px;
+}
+.top{
+    color: #fff;
+}
+
+.search{
+    width: 350px;
+    height: 40px;
+    outline: none;
+    border-radius: 20px;
+    padding: 0px 0px 0px 20px;
+    font-size: 18px;
+    border: none;
+    margin: 30px 0px 20px 0px;
+}
+  .button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background: gold;
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+  }  
+  .downloadBtn{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(242, 99, 47);
+    font-size: 18px;
+    color: white;
+    margin: 0px 10px 0px 10px;
+  }  
+
+@media screen and (max-width:400px) {
+    .search{
+        width: 300px;
+        height: 37px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
